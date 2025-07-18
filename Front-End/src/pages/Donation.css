@@ -1,0 +1,65 @@
+.donate_main{
+    width: 100%;
+    padding: 60px 0 0 0;
+    margin: 0;
+    color: #333;
+}
+.DonationPage_main_text{
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.subline_text{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 20px;
+}
+.offline_donation_container{
+    width: 50%;
+    margin: 0 auto;
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.bank_account_number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.bank_logo{
+    width: 100px;
+    height: 100px;
+    background: #333;
+    position: relative;
+}
+.bank_Name{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+}
+.account_number{
+    position: relative;
+    top: 15px;
+    font-size: 25px;
+}
+.payChapa_link{
+    padding: 12px 10px;
+    background: #333;
+    border-radius: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 180px;
+    margin-top: 160px;
+    font-size: 20px;
+}
