@@ -1,0 +1,45 @@
+.meber_ship_main{
+    width: 100%;
+    height: auto;
+    color: #333;
+}
+.joinus_text_1{
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+}
+.joinus_text_2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.social_media_accounts{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+.social_media_accounts p{
+    font-size: 30px;
+    font-weight: 700;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+form input{
+    width: 90%;
+    margin: 10px auto;
+    height: 35px;
+
+}
+button{
+    width: 200px;
+    margin: 10px auto;
+}
