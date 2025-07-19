@@ -3,7 +3,7 @@
     --secondary-color: #fff;
     --background-light: #eee;
     --overlay-color: #0000003e;
-    --highlight-color: rebeccapurple;
+    --highlight-color: #1450ac;
 }
 
 .about_container {
@@ -31,10 +31,7 @@
 }
 .imag_of_story {
     width: 30%;
-    background: var(--secondary-color);
     border: none;
-    height: 300px;
-    border-radius: 10px;
     margin-right: 50px;
 }
 .our_vision_page {
@@ -127,9 +124,17 @@
     flex-wrap: wrap;
     gap: 15px;
 }
-.Gallery_pic {
+.gallery_pic_boxer{
     width: 300px;
     height: 220px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.Gallery_pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     background: var(--primary-color);
 }
 .seeMoreGallery {
@@ -173,6 +178,7 @@
 }
 .image_of_project {
     width: 100%;
+    object-fit: cover;
     height: 100%;
     background: #6c6c6c;
     position: absolute;
@@ -290,7 +296,6 @@
 }
 .partner_logo {
     width: 100px;
-    height: 100px;
     background: #33333363;
 }
 .partner_description {
